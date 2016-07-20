@@ -1,0 +1,1 @@
+activate :facebook_pixel, id: 1234567890000000

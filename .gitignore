@@ -4,4 +4,6 @@
 # Ignore pkg folder
 /pkg
 
+/tmp
+
 .ruby-version
