@@ -1,9 +1,6 @@
-# Ignore bundler lock file
-/Gemfile.lock
-
-# Ignore pkg folder
-/pkg
-
-/tmp
-
+Gemfile.lock
 .ruby-version
+*.gem
+
+/pkg
+/tmp
