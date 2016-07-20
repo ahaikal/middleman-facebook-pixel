@@ -1,4 +1,7 @@
-# middleman-facebook-pixel [![Build Status](https://travis-ci.org/xcopy/middleman-facebook-pixel.svg?branch=master)](https://travis-ci.org/xcopy/middleman-facebook-pixel)
+# middleman-facebook-pixel
+
+[![Gem Version](https://badge.fury.io/rb/middleman-facebook-pixel.svg)](https://badge.fury.io/rb/middleman-facebook-pixel)
+[![Build Status](https://travis-ci.org/xcopy/middleman-facebook-pixel.svg?branch=master)](https://travis-ci.org/xcopy/middleman-facebook-pixel)
 
 **middleman-facebook-pixel** is a [Middleman](http://middlemanapp.com) extension that generates Facebook Pixel code, and keeps your config in `config.rb`, where it belongs.
 

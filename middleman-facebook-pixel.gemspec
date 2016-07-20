@@ -7,10 +7,10 @@ Gem::Specification.new do |s|
   s.version = Middleman::FacebookPixel::VERSION
   s.platform = Gem::Platform::RUBY
   s.author = 'Kairat Jenishev'
-  s.email = ['kairat.jenishev@gmail.com']
+  s.email = 'kairat.jenishev@gmail.com'
   s.homepage = 'https://github.com/xcopy/middleman-facebook-pixel'
   s.summary = 'A Middleman plugin for handling Facebook Pixel code'
-  # s.description = ''
+  s.description = '"middleman-facebook-pixel" is a Middleman extension that generates Facebook Pixel code, and keeps your config in config.rb, where it belongs'
 
   s.license = 'MIT'
 
@@ -19,11 +19,9 @@ Gem::Specification.new do |s|
   s.executables = []
   s.require_paths = ['lib']
 
-  s.required_ruby_version = '>= 1.9.3'
-
+  s.required_ruby_version = '>= 2.0'
   # The version of middleman-core your extension depends on
-  s.add_runtime_dependency('middleman-core', ['>= 3.4.1'])
-  
+  s.add_runtime_dependency 'middleman-core', '~> 3.4'
   # Additional dependencies
-  # s.add_runtime_dependency('gem-name', 'gem-version')
+  s.add_runtime_dependency 'erubis', '~> 2.7'
 end
