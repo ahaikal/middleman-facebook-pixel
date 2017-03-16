@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 2.0'
   # The version of middleman-core your extension depends on
-  s.add_runtime_dependency 'middleman-core', '~> 3.4'
+  s.add_runtime_dependency 'middleman-core', '~> 4.2'
   # Additional dependencies
   s.add_runtime_dependency 'erubis', '~> 2.7'
 end

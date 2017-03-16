@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'middleman-core', '~> 3.4.1'
+gem 'middleman-core', '~> 4.2'
 
 gemspec
 
